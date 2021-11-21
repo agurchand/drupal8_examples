@@ -1,0 +1,6 @@
+name: New Module
+type: module
+description: This is another custom module to learn drupal
+core_version_requirement: ^8 || ^9
+dependencies:
+  - block

@@ -1,0 +1,7 @@
+mjsfiles:
+  version: 1.x
+  js:
+    js/new_module.js: {}
+  dependencies:
+    - core/jquery
+    - core/once

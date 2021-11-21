@@ -1,0 +1,12 @@
+new_module.firstroute:
+  path: '/newcontroller'
+  defaults:
+    _controller: 'Drupal\new_module\Controller\NewModuleController::first'
+  requirements:
+    _permission: 'access content'
+new_module.apicontroller:
+  path: '/api/data'
+  defaults:
+    _title: 'API Test'
+    _controller: 'Drupal\new_module\Controller\APIController::index'
+    _permission: 'access content'

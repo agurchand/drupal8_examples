@@ -1,0 +1,14 @@
+supermodule.newpage:
+  path: '/super_module'
+  defaults:
+    _controller: 'Drupal\super_module\NewController\SuperController::default'
+    _title: 'Super Module Page'
+  requirements:
+    _permission: 'access content'
+supermodule.newform:
+  path: '/super_form'
+  defaults:
+    _form: 'Drupal\super_module\NewController\SuperForm'
+    _title: 'Super Form'
+  requirements:
+    _access: 'TRUE'

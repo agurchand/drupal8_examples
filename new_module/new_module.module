@@ -1,0 +1,9 @@
+<?php 
+
+function new_module_form_alter(&$form, $form_state, $form_id) {
+    // $current_user = \Drupal::currentUser();
+    // kint($current_user);
+
+    // $printme = \Drupal::service('new_module.myservice');
+    // echo $printme->printme();
+}
